@@ -1,0 +1,7 @@
+i=1
+toplam=0
+while (1000000>i>0):
+    toplam+=1/(i**2)
+    i+=1
+pi=(toplam*6)**(1/2)
+print(pi)
