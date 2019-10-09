@@ -1,0 +1,17 @@
+sayac=0
+for i in range(1,10):
+    for j in range(0,10):
+        for t in range(0,10):
+            for m in range(0,i):
+                sayac+=1
+                           
+print(sayac)
+
+
+#Ya da altaki şekilde yapabilirim çünkü ortadakiler için 10*10=100 seçenek var.
+sayac=0
+for i in range(1,10):
+    for m in range(0,i):
+        sayac+=1
+                           
+print(sayac*10**2)
