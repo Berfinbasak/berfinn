@@ -1,0 +1,6 @@
+#2 karakter arasına nokta konulan program.
+string=input("string gir: ")
+i=0
+for eleman in string:
+    print(eleman[i],end=".")
+    
