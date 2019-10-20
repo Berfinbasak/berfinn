@@ -1,0 +1,12 @@
+#Bir stringin içinde girilen karakterin kaç kez yazıldığını tespit eden program.İlk print ile ilgili sıkıntım var, bu sebeple 2. kez saymıyor.
+string=input("string gir: ")
+a=input("aranan karakeri giriniz: ")
+n=0
+c=0
+if(string[c:].find(a)>=0):
+    n=n+1
+    c=string.find(a)
+    print("",n)
+    
+else:
+    print("0")
